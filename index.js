@@ -187,7 +187,7 @@ app.post(
 app.get("/gettockenomicsByid", SiteTokenomics.gettockenomicsByid);
 
 ///////////////////////////////////////
-app.use(express.static("./build"));
+// app.use(express.static("./build"));
 
 // app.use("*", (req, res) => {
 //   res.sendfile("./build/index.html");
